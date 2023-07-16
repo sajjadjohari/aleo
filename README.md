@@ -32,7 +32,7 @@ cd snarkOS
 cargo install --path .
 
 ------------------------------------------------------------------
-To get fast, you must send the following message format to the following number:
+To get faucet, you must send the following message format to the following number:
 
 number: +18678885688
 massage: send 50 credits to aleo1fl2kum48tz2sssx2x5t779ydhsrt45xnn65kvxll3qzh8mheru9q3va4q6
