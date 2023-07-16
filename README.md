@@ -58,7 +58,6 @@ cd $PATHTOAPP && cd ..
 PRIVATEKEY=""
 
 (To get record, you must go to the message you received through the number and copy the record part in the output section and go to site aleo.tools and send record and view key and COPY code from site and put it between two marks  " .)
-
 RECORD=""
 
 snarkos developer deploy "${APPNAME}.aleo" --private-key "${PRIVATEKEY}" --query "https://vm.aleo.org/api" --path "./${APPNAME}/build/" --broadcast "https://vm.aleo.org/api/testnet3/transaction/broadcast" --fee 600000 --record "${RECORD}"
